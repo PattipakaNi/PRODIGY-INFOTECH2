@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 137, 1);
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.todo{
+    text-align: center;
+}
+
+
+form{
+    width: 70%;
+}
+.input-container{
+
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#inputBox{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0);
+
+
+    
+
+}
+#add{
+    margin-left: 10px;
+
+}
